@@ -1,27 +1,27 @@
 const swconf = {
   
-    cacheName: 'chirpy-1724009169',resources: [
-      '/assets/css/jekyll-theme-chirpy.css',
-      '/',
+    cacheName: 'chirpy-1724089060',resources: [
+      '/samiulbasir.github.io/assets/css/jekyll-theme-chirpy.css',
+      '/samiulbasir.github.io/',
       
-        '/categories/',
+        '/samiulbasir.github.io/categories/',
       
-        '/tags/',
+        '/samiulbasir.github.io/tags/',
       
-        '/archives/',
+        '/samiulbasir.github.io/archives/',
       
-        '/about/',
+        '/samiulbasir.github.io/about/',
       
 
       
       
-        '/assets/js/dist/app.min.js',
-        '/assets/js/dist/categories.min.js',
-        '/assets/js/dist/commons.min.js',
-        '/assets/js/dist/home.min.js',
-        '/assets/js/dist/misc.min.js',
-        '/assets/js/dist/page.min.js',
-        '/assets/js/dist/post.min.js'
+        '/samiulbasir.github.io/assets/js/dist/app.min.js',
+        '/samiulbasir.github.io/assets/js/dist/categories.min.js',
+        '/samiulbasir.github.io/assets/js/dist/commons.min.js',
+        '/samiulbasir.github.io/assets/js/dist/home.min.js',
+        '/samiulbasir.github.io/assets/js/dist/misc.min.js',
+        '/samiulbasir.github.io/assets/js/dist/page.min.js',
+        '/samiulbasir.github.io/assets/js/dist/post.min.js'
     ],denyPaths: [
       
     ],

@@ -1,22 +1,48 @@
 
 
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <id>http://localhost:4000/</id>
+  <id>http://localhost:4000/samiulbasir.github.io/</id>
   <title>Samiul Basir</title>
   <subtitle>A minimal, responsive and feature-rich Jekyll theme for technical writing.</subtitle>
-  <updated>2024-08-19T01:26:08+06:00</updated>
+  <updated>2024-08-19T23:37:40+06:00</updated>
   <author>
-    <name>your_full_name</name>
-    <uri>http://localhost:4000/</uri>
+    <name>Samiul Basir</name>
+    <uri>http://localhost:4000/samiulbasir.github.io/</uri>
   </author>
-  <link rel="self" type="application/atom+xml" href="http://localhost:4000/feed.xml"/>
+  <link rel="self" type="application/atom+xml" href="http://localhost:4000/samiulbasir.github.io/feed.xml"/>
   <link rel="alternate" type="text/html" hreflang="en"
-    href="http://localhost:4000/"/>
+    href="http://localhost:4000/samiulbasir.github.io/"/>
   <generator uri="https://jekyllrb.com/" version="4.3.3">Jekyll</generator>
-  <rights> © 2024 your_full_name </rights>
-  <icon>/assets/img/favicons/favicon.ico</icon>
-  <logo>/assets/img/favicons/favicon-96x96.png</logo>
+  <rights> © 2024 Samiul Basir </rights>
+  <icon>/samiulbasir.github.io/assets/img/favicons/favicon.ico</icon>
+  <logo>/samiulbasir.github.io/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>Understanding Flutter Stateful Widgets</title>
+    <link href="http://localhost:4000/samiulbasir.github.io/posts/stateful_widget/" rel="alternate" type="text/html" title="Understanding Flutter Stateful Widgets" />
+    <published>2024-08-19T00:00:00+06:00</published>
+  
+    <updated>2024-08-19T00:00:00+06:00</updated>
+  
+    <id>http://localhost:4000/samiulbasir.github.io/posts/stateful_widget/</id>
+    <content src="http://localhost:4000/samiulbasir.github.io/posts/stateful_widget/" />
+    <author>
+      <name>Samiul Basir</name>
+    </author>
+
+  
+    
+  
+
+  <summary>In Flutter, widgets are the building blocks of your app’s UI. There are two types of widgets: Stateless and Stateful. While stateless widgets are immutable and cannot change their state after they are built, stateful widgets can change their state during their lifetime.
+
+What is a Stateful Widget?
+
+A stateful widget is a widget that has mutable state. This means that the widget can rebuild itse...</summary>
+
+  </entry>
 
 </feed>
 

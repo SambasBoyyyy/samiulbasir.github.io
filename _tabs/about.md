@@ -37,7 +37,7 @@ My current work focuses on making AI more accessible and efficient through:
 
 ## Publications
 
-I've published research on neural network optimization, including work on Z-Pruner, a post-training pruning technique for large language models. You can find my publications in the [Publications](/publications/) section.
+I've published research on neural network optimization, including work on Z-Pruner, a post-training pruning technique for large language models. You can find my publications in the [Publications]({{ '/publications/' | relative_url }}) section.
 
 Feel free to explore my blog and projects to learn more about my work and interests. If you have any questions or would like to connect, don't hesitate to reach out!
 

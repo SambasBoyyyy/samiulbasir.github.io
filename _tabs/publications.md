@@ -12,7 +12,7 @@ order: 5
 
 **Authors:** Samiul Basir, [Additional Authors]
 
-**Publication:** ResearchGate, 2024
+**Publication:** IEEE Xplore (AICCSA), arXiv preprint, 2025
 
 **Abstract:** This paper presents Z-Pruner, a novel post-training pruning technique for large language models that achieves significant efficiency improvements without requiring retraining. Our approach addresses the computational and memory constraints of deploying large language models by removing redundant parameters while maintaining model performance.
 
@@ -22,7 +22,7 @@ order: 5
 - No retraining required, making it practical for production deployment
 - Comprehensive evaluation on multiple benchmark datasets
 
-**Link:** [View Publication on ResearchGate](https://www.researchgate.net/publication/394921404_Z-Pruner_Post-Training_Pruning_of_Large_Language_Models_for_Efficiency_with_Retraining)
+**Link:** [View Publication on arXiv](https://www.arxiv.org/abs/2508.15828)
 
 **Keywords:** Large Language Models, Model Pruning, Post-Training Optimization, Efficiency, Neural Network Compression
 
@@ -49,4 +49,4 @@ Feel free to reach out if you'd like to discuss potential collaborations or have
 
 {: .prompt-tip }
 
-> Interested in my research? Check out my [Z-Pruner paper](https://www.researchgate.net/publication/394921404_Z-Pruner_Post-Training_Pruning_of_Large_Language_Models_for_Efficiency_with_Retraining) and feel free to connect with me on ResearchGate!
+> Interested in my research? Check out my [Z-Pruner paper](https://www.arxiv.org/abs/2508.15828) and feel free to connect with me!

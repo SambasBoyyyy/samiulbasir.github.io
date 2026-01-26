@@ -39,12 +39,25 @@ jobs:
         id: pages
         uses: actions/configure-pages@v4
 
-      - name: Setup Ruby
-        uses: ruby/setup-ruby@v1
-        with:
-          ruby-version: "3.3"
-          bundler-cache: true
-          cache-version: 0
+      - name: Install ruby-build dependencies
+        run: sudo apt-get install -y --no-install-recommends libyaml-dev libgdbm-dev libreadline-dev libncurses5-dev zlib1g-dev libssl-dev
+
+      - name: Clone and install ruby-build
+        run: |
+          git clone https://github.com/rbenv/ruby-build.git
+          sudo ./ruby-build/install.sh
+
+      - name: Build and install Ruby
+        run: |
+          sudo ruby-build 3.3.0 /usr/local
+        env:
+          RUBY_CONFIGURE_OPTS: --disable-install-doc
+
+      - name: Install Bundler
+        run: |
+          gem install bundler
+          bundle config set --local path 'vendor/bundle'
+          bundle install --jobs 4 --retry 3
 
       - name: Build site
         run: bundle exec jekyll b -d "_site${{ steps.pages.outputs.base_path }}"
